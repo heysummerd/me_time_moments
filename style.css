@@ -11,12 +11,17 @@ html {
 }
 
 body {
-    background-color: #FDF9F2;
     float: none;
     margin: 5px auto;
     max-width: 1200px;
     min-width: 800px;
     width: 80%;
+}
+
+/* Logo */
+#logo {
+    width: 50px;
+    height: auto;
 }
 
 /* Header */
