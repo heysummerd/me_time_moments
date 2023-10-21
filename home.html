@@ -21,10 +21,9 @@
         <h1>What is your first name?</h1>
     </div>
     <section>
-        <form>
-            <textarea id="nameBox" name="nameText" placeholder="Enter your first name, you lovely human!" 
-            autofocus tabindex="1" wrap="hard"></textarea>
-            <button type="submit">-></button>
+        <form action="hello.php" method="post">
+            <input type="text" id="nameBox" name="name" placeholder="Hi, you lovely human!" wrap="hard" required><br>
+            <input type="submit" value="->">
         </form>
     </section>
   </body>
