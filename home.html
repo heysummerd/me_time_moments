@@ -7,16 +7,27 @@
     Filename: home.html
    -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Me Time Moments</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
   </head>
 
   <body>
     <header>
-      <img src="https://github.com/heysummerd/me_time_moments/blob/images/metimemomentslogo.png?raw=true" alt="me time moments logo">
+      <img id="logo" src="https://github.com/heysummerd/me_time_moments/blob/images/metimemomentslogo.png?raw=true" alt="me time moments logo">
     </header>
+    <div class="intro-text">
+        <h1>What is your first name?</h1>
+    </div>
+    <section>
+        <form>
+            <textarea id="nameBox" name="nameText" placeholder="Enter your first name, you lovely human!" 
+            autofocus tabindex="1" wrap="hard"></textarea>
+        </form>
+    </section>
   </body>
   <footer>
-    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghaad Abujabal 
+    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghaad Abujabal of ACC
   </footer>
 </html>
