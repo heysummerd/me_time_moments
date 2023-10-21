@@ -11,26 +11,50 @@ html {
 }
 
 body {
-    float: none;
-    margin: 5px auto;
-    max-width: 1200px;
-    min-width: 800px;
-    width: 80%;
+    background-color: #FDF9F2;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
-/* Logo */
+/* Header Logo */
 #logo {
-    width: 50px;
+    width: 300px;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
-/* Header */
-header {
+/* Fonts + Headers */
+
+h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #333; /* Text color */
 }
 
 
-/* Menu */
+/* Centered Form Box */
+.intro-text {
+    text-align: center;
+}
+
+.centered-form {
+    text-align: center;
+}
+
+/* Footer */
 
 footer {
+    margin-top: auto;
+    background-color: #F8DAE2;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 
 }
+
