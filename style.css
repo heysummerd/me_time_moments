@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*
+    Author: Jessa K. West, Jessa K. West, Summer Davis, Eden Bishop, Raghaad Abujabal
+    Date: October 2023
+*/
+
+/* Layout */
+html {
+    background-color: white;
+}
+
+body {
+    float: none;
+    margin: 5px auto;
+    max-width: 1200px;
+    min-width: 800px;
+    width: 80%;
+}
+
+/* Header */
+header {
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+/* Menu */
+
+footer {
+
+}
