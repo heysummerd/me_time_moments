@@ -1,5 +1,8 @@
 console.log("Hello World!");
 
+// collect user input
+userChoices = surveyInput();
+
 // Load data from Supabase
 loadDates();
 
@@ -18,13 +21,26 @@ async function loadDates() {
   const data = await res.json();
   console.log(data);
 
-  /** const filteredData = data.filter((date)=>date.cost === 0);
+  /** const filteredData = filterData(userChoices, data)
   
   // 
 
   printDateIdea(filteredData); (Section 5 - 48) 
 
   **/
+}
+
+// function filterData(userChoices, data) {}
+
+function surveyInput() {
+  // create userChoice object
+  userChoicesObj = {};
+  // question 1
+
+  // question 2
+  // question 3
+  // question 4
+  // question 5
 }
 
 function printDateIdea(dateObj) {
@@ -59,3 +75,4 @@ function printDateIdea(dateObj) {
     return `Your date idea: ${this.activity_name} \n ${this.description}`;
   },
 }; **/
+
