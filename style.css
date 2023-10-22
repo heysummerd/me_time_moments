@@ -77,6 +77,17 @@ div.goal {
     width: 75px;
 }
 
+#icon2 {
+    display: block;
+    float:center;
+    width: 275px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
 .centered-form {
     text-align: center;
 }
