@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Author: Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal
+    Date:   October 2023
+    Filename: goal.html
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me Time Moments</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+
+  <body>
+    <header>
+        <img
+          id="logo"
+          src="https://github.com/heysummerd/me_time_moments/blob/images/metimemomentslogo.png?raw=true"
+          alt="me time moments logo"
+        />
+      </header>
+
+      <section>
+        <fieldset>
+            <legend><h1>but first, what are your intentions for yourself?</h1></legend>
+            <div class="goal"><h3>
+                <input type="radio" id="inner_child" name="goal" value=2>
+                <label for="inner_child">to play with your inner child</label> <br>
+                <input type="radio" id="joy" name="goal" value=1>
+                <label for="joy">to cultivate a lil moment of joy</label> <bR>
+                <input type="radio" id="decompress" name="goal" value=3>
+                <label for="decompress">to decompress from life</label> <br>
+                <input type="radio" id="fun" name="goal" value=0>
+                <label for="fun">to just have a bit of fun</label>
+                <br></h3>
+            </div>
+                <a href="idea.html"><input id="final_submit" type="submit" value="i'm ready to date myself"></a>
+            <br>
+        </fieldset>
+      </section>
+
+  </body>
+  
+  <footer>
+    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal of ACC
+  </footer>
+</html>
