@@ -2,7 +2,7 @@
 <html>
   <head>
     <!--
-    Author: Jessa K. West, Summer Davis, Eden Bishop, Raghaad Abujabal
+    Author: Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal
     Date:   October 2023
     Filename: userInput.html
    -->
@@ -21,34 +21,34 @@
           alt="me time moments logo"
         />
       </header>
-  </body>
-
     <section >
         <fieldset>
-            <legend><h1>tell me about what kind of date you want to go on:</h1></legend>
-            <div class="slider">
-                <h2>from AM to PM, when is your date?</h2>
-                <img src="https://github.com/heysummerd/me_time_moments/blob/main/AM.png?raw=true" id="icon"><input name="time_of_day" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/PM.png?raw=true" id="icon">
-            </div>
-            <div class="slider">
-                <h2>from cozy to active, how energetic are we feeling today?</h2>
-                <img src="https://github.com/heysummerd/me_time_moments/blob/main/Cozy.png?raw=true" id="icon"><input name="energy_level" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Active.png?raw=true" id="icon">
-            </div>
-            <div class="slider">
-                <h2>from free to bougie, how thick is your wallet?</h2>
-                <img src="https://github.com/heysummerd/me_time_moments/blob/main/Affordable.png?raw=true" id="icon"><input name="cost" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Bougie.png?raw=true" id="icon">
-            </div>
-            <div class="slider">
-                <h2>from minutes to hours, how long are you free?</h2>
-                <img src="https://github.com/heysummerd/me_time_moments/blob/main/Minutes%202.png?raw=true" id="icon"><input name="time_length" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Hours%202.png?raw=true" id="icon">
-            </div>
-            <div class="slider">
-                <h2>from indoor to outdoor, how much vitamin d do you want?</h2>
-                <img src="https://github.com/heysummerd/me_time_moments/blob/main/Indoor.png?raw=true" id="icon"><input name="indoor_outdoor" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Outdoor.png?raw=true" id="icon">
-            </div>
-            <br><br>
-            <input type="submit" value="find my perfect date" onclick="date.html">
-            <br>
+            <legend><h1>tell me about what kind of date you want to go on</h1></legend>
+            <form action="goal.html" method="post">           
+              <div class="slider">
+                  <h2>from AM to PM, when is your date?</h2>
+                  <img src="https://github.com/heysummerd/me_time_moments/blob/main/AM.png?raw=true" id="icon"><input name="time_of_day" id="activitylevel" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/PM.png?raw=true" id="icon">
+              </div>
+              <div class="slider">
+                  <h2>from cozy to active, how energetic are we feeling today?</h2>
+                  <img src="https://github.com/heysummerd/me_time_moments/blob/main/Cozy.png?raw=true" id="icon"><input name="energy_level" id="activitylevel" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Active.png?raw=true" id="icon">
+              </div>
+              <div class="slider">
+                  <h2>from free to bougie, how thick is your wallet?</h2>
+                  <img src="https://github.com/heysummerd/me_time_moments/blob/main/Affordable.png?raw=true" id="icon"><input name="cost" id="activitylevel" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Bougie.png?raw=true" id="icon">
+              </div>
+              <div class="slider">
+                  <h2>from minutes to hours, how long are you free?</h2>
+                  <img src="https://github.com/heysummerd/me_time_moments/blob/main/Minutes%202.png?raw=true" id="icon"><input name="time_length" id="activitylevel" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Hours%202.png?raw=true" id="icon">
+              </div>
+              <div class="slider">
+                  <h2>from indoor to outdoor, how much vitamin d do you want?</h2>
+                  <img src="https://github.com/heysummerd/me_time_moments/blob/main/Indoor.png?raw=true" id="icon"><input name="indoor_outdoor" id="activitylevel" type="range" min="0" max="3" step="1" value="2"><img src="https://github.com/heysummerd/me_time_moments/blob/main/Outdoor.png?raw=true" id="icon">
+              </div>
+              <br><br>
+              <input type="submit" value="find my perfect date">
+              <br>
+          </form>
         </fieldset>
     </section>
     <div>
@@ -59,7 +59,9 @@
         <fieldset>
             <legend><h1>or are you feeling wild? ;)</h1></legend>
             <br>
-            <a href="URL"><input type="submit" value="pick a wildcard date"></a>
+            <form action="idea.html" method="post">
+              <input type="submit" value="pick a wildcard date">
+            </form>
             <br>
         </fieldset>
     </section>
@@ -67,7 +69,8 @@
         <br>
         <br>
     </div>
+    </body>
   <footer>
-    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghaad Abujabal of ACC
+    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal of ACC
   </footer>
 </html>
