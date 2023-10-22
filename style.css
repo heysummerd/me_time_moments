@@ -33,8 +33,8 @@ body {
 /* Fonts + Headers */
 
 h1 {
-    font-size: 2em; /* Adjust the font size as needed */
-    color: #333; /* Text color */
+    font-size: 2em;
+    color: #333;
 }
 
 
@@ -43,8 +43,27 @@ h1 {
     text-align: center;
 }
 
+div.slider {
+    float: center;
+    text-align: center;
+	width: 100%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#icon {
+    width: 75px;
+}
+
 .centered-form {
     text-align: center;
+}
+
+input[type="submit"] {
+	display: block;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
 }
 
 /* Footer */
