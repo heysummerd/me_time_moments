@@ -18,16 +18,32 @@ async function loadDates() {
   const data = await res.json();
   console.log(data);
 
-  
   /** const filteredData = data.filter((date)=>date.cost === 0);
-
-  // 
-
-  createDateIdea(filteredData); (Section 5 - 48) 
   
   // 
-  
+
+  printDateIdea(filteredData); (Section 5 - 48) 
+
   **/
+}
+
+function printDateIdea(dateObj) {
+  let activity = dateObj["activity_name"];
+  let ampm = dateObj["time_of_day"];
+  let cost = dateObj["cost"];
+  let inout = dateObj["indoor_outdoor"];
+  let energy = dateObj["energy_level"];
+  let length = dateObj["time_length"];
+  let purpose = dateObj["purpose"];
+  let description = dateObj["description"];
+
+  return `Get ready for some ${purpose}! \n
+          Here are the details of your perfect date... \n\n
+          
+          ${activity} \n
+
+          ${description}
+          `;
 }
 
 /** const dateObj = {
