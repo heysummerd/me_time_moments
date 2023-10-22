@@ -21,19 +21,28 @@
           alt="me time moments logo"
         />
       </header>
-      <section>
+    <section>
         <fieldset>
             <legend><h1>honey, your date is ready!</h1></legend>
             <br>
                 fix your hair, put on your best fit, and check your hot self out in the mirror <br>
                 - <b>it's time for your big date!</b>
             <br><br>
-                <center>
-                    ENTER IN SEARCH RESULTS FROM DATABASE
-                    <h3>input: activity_name</h3>
-                    input: description
-                </center>
-            <br><br>
+                  <div id="dateIdeaOutput"> </div>
+                    <script>
+                      let dateObj = {
+                        activity_name: "picnic",
+                        time_of_day: "flexible",
+                        cost: "cheap",
+                        indoor_outdoor: "outdoor",
+                        energy_level: "light",
+                        time_length: "flexible",
+                        purpose: "excitement",
+                        description: "gather up a few food items and find a pretty spot!",
+                      };
+                      document.getElementById("dateIdeaOutput").textContent = printDateIdea(dateObj);
+                    </script>
+            <br><be>
         </fieldset>
       </section>
   </body>
