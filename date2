@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Author: Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal
+    Date:   October 2023
+    Filename: date2.html
+   -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me Time Moments</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <img
+          id="logo"
+          src="https://github.com/heysummerd/me_time_moments/blob/images/metimemomentslogo.png?raw=true"
+          alt="me time moments logo"
+        />
+      </header>
+      <section>
+        <fieldset>
+            <legend><h1>honey, your date is ready!</h1></legend>
+            <br>
+                fix your hair, put on your best fit, and check your hot self out in the mirror <br>
+                - <b>it's time for your big date!</b>
+            <br><br>
+                  <div id="dateIdeaOutput"> </div>
+                    <script>
+                      let dateObj = {
+                        activity_name: "visit a museum",
+                        time_of_day: "flexible",
+                        cost: "mid",
+                        indoor_outdoor: "indoor",
+                        energy_level: "light",
+                        time_length: "flexible",
+                        purpose: "joy",
+                        description: "There are museums for everything now. See what you city offers and spend some time to be curious and to learn. You might be suprised by what you find!",
+                      };
+                      document.getElementById("dateIdeaOutput").textContent = printDateIdea(dateObj);
+                    </script>
+                 
+            <br><br>
+        </fieldset>
+      </section>
+  </body>
+  
+  <footer>
+    Me Time Moments | HackTX23 Web App by Jessa K. West, Summer Davis, Eden Bishop, Raghad Abujabal of ACC
+  </footer>
+</html>
