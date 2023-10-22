@@ -18,9 +18,16 @@ async function loadDates() {
   const data = await res.json();
   console.log(data);
 
-  // const filteredData = data.filter((date)=>date.cost === 0);
+  
+  /** const filteredData = data.filter((date)=>date.cost === 0);
 
-  // createDateIdea(filteredData); (Section 5 - 48)
+  // 
+
+  createDateIdea(filteredData); (Section 5 - 48) 
+  
+  // 
+  
+  **/
 }
 
 /** const dateObj = {
