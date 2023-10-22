@@ -53,13 +53,9 @@ function printDateIdea(dateObj) {
   let purpose = dateObj["purpose"];
   let description = dateObj["description"];
 
-  return `Get ready for some ${purpose}! \n
-          Here are the details of your perfect date... \n\n
-          
-          ${activity} \n
-
-          ${description}
-          `;
+  return ` your ${purpose} date details:
+          enjoy a ${activity} :) 
+          ${description}`;
 }
 
 /** const dateObj = {
