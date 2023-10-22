@@ -30,6 +30,13 @@ body {
     margin: auto;
 }
 
+#nameBox {
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
 /* Fonts + Headers */
 
 h1 {
